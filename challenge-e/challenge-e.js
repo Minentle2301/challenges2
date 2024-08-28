@@ -5,5 +5,5 @@
 
 
 
-// Log the roles of these individuals
+// the roles of these individuals
 console.log('Roles:', nwabisa.role, johannes.role, alex.role);
