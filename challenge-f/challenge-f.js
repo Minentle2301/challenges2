@@ -5,6 +5,7 @@ let count = 0;
 const holidayList = document.getElementById('holiday-list');
 const summary = document.getElementById('summary');
 
+
 if (date === 2050) {
     // Adding holidays to the list
     holidayList.innerHTML += `<li class="holiday-item">January: New Year’s Day</li>`;
@@ -27,7 +28,7 @@ if (date === 2050) {
     holidayList.innerHTML += `<li class="holiday-item">${date}: Day of Reconciliation</li>`;
     count += 3;
 
-    if (status === "parent") {
+    if (status = "parent") {
         holidayList.innerHTML += `<li class="holiday-item">${date}: Christmas Day</li>`;
         count += 1;
     }
@@ -42,4 +43,5 @@ summary.innerHTML = `
     <strong>The year is:</strong> ${date}<br>
     <strong>The total holidays is:</strong> ${count}
 `;
+
 
